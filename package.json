@@ -1,0 +1,22 @@
+{
+  "name": "lofty-tz",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon -r dotenv/config -r tsconfig-paths/register src/index.ts",
+    "global-stand": "node -r dotenv/config -r tsconfig-paths/register dist/index.js"
+  },
+  "dependencies": {
+    "@types/amqplib": "^0.8.2",
+    "@types/puppeteer": "^5.4.6",
+    "amqplib": "^0.10.0",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19",
+    "puppeteer": "^15.4.0",
+    "ts-node": "^10.7.0",
+    "tsconfig-paths": "^3.14.1",
+    "typescript": "^4.6.3"
+  }
+}
